@@ -2,22 +2,17 @@
 // Importaciones de React
 // ===============================
 import React, { useEffect, useState } from "react";
-
 // Navegación
 import { useNavigate } from "react-router-dom";
-
 // API pedidos
 import { getMyOrders, getReceiptPDF, deleteOrder } from "../api/orders";
-
 // Utilidades
 import { downloadBlob } from "../utils/fileDownload";
 import { openRouteFromCurrentPosition } from "../utils/openRouteFromCurrentPosition";
-
 // Auth
 import { useAuth } from "../components/useAuth";
 
 export default function MyOrdersPage() {
-
   // ===============================
   // ESTADOS
   // ===============================
@@ -75,7 +70,7 @@ export default function MyOrdersPage() {
   // VISTA PRINCIPAL
   // ===============================
   return (
-    <div className="p-8 bg-gray-50 min-h-screen text-black">
+    <div className="p-8 bg-gradient-to-b from-gray-950 to-white min-h-screen text-white">
 
       <h2 className="text-3xl font-bold mb-6 text-center">
         {user?.role === "cliente" ? "🧾 Mis pedidos" : "📦 Pedidos de clientes"}
@@ -89,25 +84,25 @@ export default function MyOrdersPage() {
           return (
             <div
               key={order._id}
-              className="bg-white rounded-2xl shadow-md p-6 border text-black"
+              className="bg-gray-100 rounded-2xl shadow-md p-6 border-gray-400 text-black"
             >
 
               {/* NÚMERO DE PEDIDO */}
-              <p className="text-sm mb-2">
-                <strong>Pedido Nº:</strong> {order._id.slice(-6)}
+              <p className="text-xl mb-2">
+                <strong>📦 Pedido Nº:</strong> {order._id.slice(-6)}
               </p>
 
               {/* CLIENTE */}
-              <p><strong>Cliente:</strong> {cliente.username || "No disponible"}</p>
-              <p><strong>Correo:</strong> {cliente.email || "No disponible"}</p>
-              <p><strong>Dirección:</strong> {cliente.address || "No disponible"}</p>
+              <p className="text-sm"><strong>Cliente:</strong> {cliente.username || "No disponible"}</p>
+              <p className="text-sm"><strong>Correo:</strong> {cliente.email || "No disponible"}</p>
+              <p className="text-sm"><strong>Dirección:</strong> {cliente.address || "No disponible"}</p>
 
               {/* PRODUCTOS */}
               <div className="mt-3">
-                <p className="font-semibold mb-1">🛒 Productos:</p>
+                <p className="font-semibold mb-1 text-xl">🛒 Productos:</p>
 
                 {order.items?.length > 0 ? (
-                  <ul className="text-sm space-y-1">
+                  <ul className="text-base space-y-1">
                     {order.items.map((item, index) => (
                       <li
                         key={index}
@@ -156,7 +151,7 @@ export default function MyOrdersPage() {
                 <div className="flex gap-2 mt-2">
                   <button
                     onClick={() => handleEditOrder(order._id)}
-                    className="flex-1 bg-yellow-500 text-white px-3 py-2 rounded hover:bg-yellow-600"
+                    className="flex-1 bg-orange-500 text-white px-3 py-2 rounded hover:bg-orange-600"
                   >
                     Editar
                   </button>

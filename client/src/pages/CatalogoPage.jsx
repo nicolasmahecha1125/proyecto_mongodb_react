@@ -26,8 +26,8 @@ function CatalogoPage() {
   };
 
   return (
-    <div className="bg-gradient-to-b from-purple-50 to-white min-h-screen p-8">
-      <h1 className="text-4xl font-bold text-center text-purple-800 mb-10">
+    <div className="bg-gradient-to-b from-gray-950 to-white min-h-screen p-8">
+      <h1 className="text-4xl font-bold text-center text-white mb-10">
         🛍️ Catálogo de Productos
       </h1>
 
@@ -36,10 +36,10 @@ function CatalogoPage() {
         {products.map((p) => (
           <div
             key={p._id}
-            className="bg-white shadow-md hover:shadow-xl rounded-2xl transition-all duration-300 flex flex-col border border-gray-100"
+            className="bg-gray-200 shadow-md hover:shadow-xl rounded-2xl transition-all duration-300 flex flex-col border border-gray-400"
           >
             {/* Imagen del producto */}
-            <div className="flex justify-center items-center p-4 bg-gray-50">
+            <div className="flex justify-center items-center p-4 bg-gray-200">
               {p.image ? (
                 <img
                   src={`http://localhost:4000/uploads/${p.image}`}
