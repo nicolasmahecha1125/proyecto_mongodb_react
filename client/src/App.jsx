@@ -19,6 +19,8 @@ import ManageUsersPage from "./pages/ManageUsersPage";
 import MyOrdersPage from "./pages/MyOrdersPage";
 import EditProductPage from "./pages/EditProductPage";
 import EditOrderPage from "./pages/EditOrderPage";
+import ProductEntryPage from "./pages/ProductEntryPage";
+import ProductEntriesPage from "./pages/ProductEntriesPage";
 
 
 function App() {
@@ -59,6 +61,8 @@ function App() {
                     <Route path="/mis-compras" element={<MyOrdersPage />} />
                     <Route path="/products/editar/:id" element={<EditProductPage />} />
                     <Route path="/orders/:id" element={<EditOrderPage />} />
+                    <Route path="/inventory/entries" element={<ProductEntryPage />} />
+                    <Route path="/inventory/history" element={<ProductEntriesPage />} />
                   </Route>
                 </Routes>
               </main>

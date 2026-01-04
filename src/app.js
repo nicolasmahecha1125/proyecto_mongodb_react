@@ -9,6 +9,7 @@ import path from 'path';
 import { fileURLToPath } from "url";
 import orderRoutes from "./routes/order.routes.js";
 import receiptRoutes from "./routes/receipt.routes.js";
+import productEntryRoutes from "./routes/productEntry.routes.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -27,6 +28,7 @@ app.use('/api',tasksRoutes);
 app.use('/api', productsRoutes);
 app.use("/api", orderRoutes);
 app.use("/api", receiptRoutes);
+app.use("/api/product-entries", productEntryRoutes);
 app.use("/uploads", express.static(path.join(process.cwd(), "uploads")));
 
 export default app;

@@ -36,5 +36,15 @@ export const NAV_LINKS = {
       to: "/profile",
       roles: ["cliente", "admin", "superadmin"],
     },
+     {
+      label: "Entradas de inventario",
+      to: "/inventory/entries",
+      roles: ["admin", "superadmin"],
+    },
+     {
+      label: "inventario recibos",
+      to: "/inventory/history",
+      roles: ["admin", "superadmin"],
+    },
   ],
 };
