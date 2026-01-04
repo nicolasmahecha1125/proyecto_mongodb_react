@@ -3,6 +3,7 @@ import { useAuth } from "../components/useAuth";
 import { NAV_LINKS } from "../constants/navbarLinks";
 import { hasRole } from "../utils/permissions";
 import NavItem from "./NavItem";
+import logoicon from "../assets/logo.jpg";
 
 function Navbar() {
   const { isAuthenticated, logout, user, loading } = useAuth();
@@ -11,15 +12,27 @@ function Navbar() {
 
   return (
     <nav className="bg-zinc-800 shadow-md">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <Link
-          to="/"
-          className="text-2xl font-bold text-white hover:text-sky-400 transition"
-        >
-          Página Home
+      <div className="w-full px-4 py-3 flex justify-between items-center">
+        
+        {/* LOGO */}
+        <Link to="/" className="flex items-center -ml-4">
+          <img
+            src={logoicon}
+            alt="Logo expendio de licores"
+            className="
+              w-24 h-20 mx-10
+              rounded-full
+              object-cover
+              cursor-pointer
+              border-2 border-gray-500
+              hover:scale-110
+              transition
+            "
+          />
         </Link>
 
-        <ul className="flex items-center gap-x-6">
+        {/* BOTONES */}
+        <ul className="flex items-center gap-x-6 ml-0">
           {isAuthenticated ? (
             <>
               {NAV_LINKS.authenticated.map(
@@ -37,7 +50,7 @@ function Navbar() {
               <li>
                 <button
                   onClick={logout}
-                  className="bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 rounded-lg transition"
+                  className="bg-sky-600 hover:bg-sky-700 text-white px-6 py-3 rounded-lg transition"
                 >
                   Logout
                 </button>
@@ -49,7 +62,7 @@ function Navbar() {
               <li>
                 <Link
                   to="/register"
-                  className="bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 rounded-lg rounded-lg transition"
+                  className="bg-sky-600 hover:bg-sky-700 text-white px-6 py-3 rounded-lg transition"
                 >
                   Register
                 </Link>
@@ -63,3 +76,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
