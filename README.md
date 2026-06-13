@@ -13,3 +13,54 @@ Dentro de la pagina se encuentra dividida en 3 secciones que veremos a continuac
 <img width="1572" height="905" alt="image" src="https://github.com/user-attachments/assets/26f242f6-9991-4c1a-83b4-87223e789570" />:
    - segundo esenario se puede pedir diferentes items a la vez
 <img width="1591" height="894" alt="image" src="https://github.com/user-attachments/assets/640647d2-d50d-4599-a6ee-94e37d400a7b" />
+
+# PAGINA LOGIN
+
+<img width="1530" height="714" alt="image" src="https://github.com/user-attachments/assets/8636d91b-b519-4bc4-8942-67fbdb1c48a2" />
+
+
+Posibles esenarios:
+
+- Primer esenario donde se pone el correo pero no la contraseña
+  
+<img width="458" height="386" alt="image" src="https://github.com/user-attachments/assets/595587ba-52b6-49ba-a86a-2ed76150a32e" />
+
+- Segundo esenario donde se pone la contraseña pero no el correo
+  
+<img width="465" height="385" alt="image" src="https://github.com/user-attachments/assets/a41d1895-b7a1-4232-9648-58ad8c2d2ad3" />
+
+- tercer esenario donde no se pone el correo ni la contraseña
+
+<img width="469" height="430" alt="image" src="https://github.com/user-attachments/assets/64183a2d-b27d-4cb1-8975-69042aeb7f44" />
+
+- cuarto esenario donde se pone un correo no cumple con el formato
+
+<img width="461" height="385" alt="image" src="https://github.com/user-attachments/assets/beafdd8a-313e-4ebe-80cd-8ffb391ec743" />
+
+- quinto esenario donde se pone un correo valido con una contraseña incorrecta
+
+<img width="466" height="383" alt="image" src="https://github.com/user-attachments/assets/f29585ac-66aa-4e1a-9a00-e21e86628425" />
+
+# PAGINA REGISTRO
+
+<img width="1154" height="594" alt="image" src="https://github.com/user-attachments/assets/2cf77405-f148-40ae-b252-a67a937c3881" />
+
+Posibles esenarios:
+
+- Primer esenario donde no se cumple el requisito para crear una contraseña
+
+<img width="472" height="542" alt="image" src="https://github.com/user-attachments/assets/7c5b9dd0-c142-41e8-902f-8251d50fa2a0" />
+
+- Segundo esenario donde no se pone el correo
+
+<img width="469" height="535" alt="image" src="https://github.com/user-attachments/assets/e8fcc0fe-56e9-447b-9f58-f17bcfcbc4a2" />
+
+- Tercer esenario donde no se pone la direcccion
+
+<img width="464" height="538" alt="image" src="https://github.com/user-attachments/assets/ac98fef1-90d7-41f1-93d3-ef6763392e27" />
+
+- Cuarto esenario donde no se pone el nombre
+
+<img width="463" height="537" alt="image" src="https://github.com/user-attachments/assets/bf04f8d5-4f43-4135-a1e0-c81726238b7e" />
+
+
