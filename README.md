@@ -63,4 +63,22 @@ Posibles esenarios:
 
 <img width="463" height="537" alt="image" src="https://github.com/user-attachments/assets/bf04f8d5-4f43-4135-a1e0-c81726238b7e" />
 
+# FUNCIONES DE ROLES
+# ADMIN
+
+## PEDIDOS DE CLIENTES
+Dentro de las funcionas del administrador es gestionar los pedidos de los clientes dentro de esta se encuentra las siguientes funciones:
+
+<img width="1153" height="441" alt="image" src="https://github.com/user-attachments/assets/53fd5e80-2c12-4719-b41f-fd27e1567aa7" />
+
+- ver ruta y direccion del pedido desde la ubicacion actual de donde se abre la aplicacion donde se redirige a la aplicacion de Google Maps
+  
+<img width="1158" height="446" alt="image" src="https://github.com/user-attachments/assets/0adf4d84-3477-46a4-82bd-3ac222279340" />
+<img width="1159" height="852" alt="image" src="https://github.com/user-attachments/assets/f29f4406-223f-4e34-b7e9-ff6263ccabe1" />
+
+- descargar recibo del pedido en formato PDF
+
+<img width="1154" height="443" alt="image" src="https://github.com/user-attachments/assets/b12f50db-5f49-4723-930d-848e892abbfe" /> 
+
+<img width="970" height="651" alt="image" src="https://github.com/user-attachments/assets/8411b7b6-7c33-402d-a030-2933669ccebc" /> 
 
