@@ -82,3 +82,15 @@ Dentro de las funcionas del administrador es gestionar los pedidos de los client
 
 <img width="970" height="651" alt="image" src="https://github.com/user-attachments/assets/8411b7b6-7c33-402d-a030-2933669ccebc" /> 
 
+- editar los pedidos para acomodar errores al registrar estos
+<img width="1008" height="526" alt="image" src="https://github.com/user-attachments/assets/59b5bbdb-f00f-4241-9014-3194ef1a7465" />
+
+se puede cambiar la cantidad seleccionada aumentandola o reduciendola
+
+<img width="924" height="504" alt="image" src="https://github.com/user-attachments/assets/44d6412c-e09c-42bc-85ef-7ac72220e4a9" />
+
+## CREAR PRODUCTOS
+- En este modulo se crean o se agregan los productos de la aplicacion
+  
+<img width="1147" height="662" alt="image" src="https://github.com/user-attachments/assets/f83f8874-0bcc-41f4-9037-ab575bb72899" /> 
+
