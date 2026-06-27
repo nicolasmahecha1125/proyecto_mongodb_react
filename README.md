@@ -94,3 +94,7 @@ se puede cambiar la cantidad seleccionada aumentandola o reduciendola
   
 <img width="1147" height="662" alt="image" src="https://github.com/user-attachments/assets/f83f8874-0bcc-41f4-9037-ab575bb72899" /> 
 
+## GESTION DE USUARIOS
+- En este modulo los administradores pueden revisar los usuarios que existen ya sean clientes como administradores
+
+<img width="1151" height="258" alt="image" src="https://github.com/user-attachments/assets/68b43b1e-532c-44d0-9a32-6e4701f70a70" />
