@@ -98,3 +98,29 @@ se puede cambiar la cantidad seleccionada aumentandola o reduciendola
 - En este modulo los administradores pueden revisar los usuarios que existen ya sean clientes como administradores
 
 <img width="1151" height="258" alt="image" src="https://github.com/user-attachments/assets/68b43b1e-532c-44d0-9a32-6e4701f70a70" />
+
+## GESTION DE PRODUCTOS
+- En este modulo los administradores pueden revisar, editar y eliminar los productos existentes
+<img width="1030" height="383" alt="Screenshot 2026-07-04 235231" src="https://github.com/user-attachments/assets/4ee3e072-a4c6-4d82-b75d-f22b15b3fe16" />
+
+Cuando se quiere editar un producto este lo envia a otra pagina que recoge los datos existentes del producto
+
+<img width="608" height="680" alt="Screenshot 2026-07-04 235311" src="https://github.com/user-attachments/assets/ee4954de-68d9-438d-afb7-f95454677ba3" />
+
+## CREADOR DE ADMINISTRADORES
+- En este modulo es para que el superadministrador pueda crear usuarios administradores para que puedan gestionar el producto
+<img width="1023" height="498" alt="Screenshot 2026-07-05 002358" src="https://github.com/user-attachments/assets/9d266a58-8e14-427d-bed4-43626c5b5c7c" /> 
+
+## PERFIL DE LA CUENTA
+- En este modulo es para editar el perfil del usuario de tanto cliente como administrador
+<img width="1024" height="264" alt="Screenshot 2026-07-05 011403" src="https://github.com/user-attachments/assets/cb1fa0a5-85ee-432d-ae0a-dabbe0ee410e" />
+
+## ENTRADAS DE INVENTARIO
+- En este modulo se registraran las entradas de inventario de un producto
+<img width="1026" height="427" alt="Screenshot 2026-07-05 011842" src="https://github.com/user-attachments/assets/55b2c52a-fce0-4a1a-881f-95fa3a903749" />
+
+## INVENTARIOS RECIBIDOS O RECIBOS DE ENTRADAS
+- En este modulo se puede revisar los recibos de las entradas de inventario del producto pedido
+<img width="1015" height="241" alt="Screenshot 2026-07-05 013027" src="https://github.com/user-attachments/assets/cc12fc5b-b21c-413c-8a48-e5492b9aff22" /> 
+
+
