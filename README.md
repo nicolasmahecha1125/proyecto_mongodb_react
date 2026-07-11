@@ -123,4 +123,8 @@ Cuando se quiere editar un producto este lo envia a otra pagina que recoge los d
 - En este modulo se puede revisar los recibos de las entradas de inventario del producto pedido
 <img width="1015" height="241" alt="Screenshot 2026-07-05 013027" src="https://github.com/user-attachments/assets/cc12fc5b-b21c-413c-8a48-e5492b9aff22" /> 
 
+# CLIENTE
+En el rol de cliente tiene las funcionalidades principales como acceso al catalogo, el carrito donde se alistan los pedidos hechos, a los pedidos hechos por ellos y en la modificacion de su propio perfil
+
+<img width="1533" height="739" alt="Screenshot 2026-07-10 231001" src="https://github.com/user-attachments/assets/3f54b3bb-c53b-489e-85f1-e72f1a926517" />
 
