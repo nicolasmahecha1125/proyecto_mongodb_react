@@ -65,6 +65,11 @@ Posibles esenarios:
 
 # FUNCIONES DE ROLES
 # ADMIN
+<img width="1544" height="731" alt="Screenshot 2026-07-11 223438" src="https://github.com/user-attachments/assets/fb611971-667c-4ed7-a25b-8a9e5ce68149" />
+
+# SUPERADMIN
+<img width="1536" height="692" alt="Screenshot 2026-07-11 223543" src="https://github.com/user-attachments/assets/404a6da6-5394-4a19-a64d-57d8b7b6ccab" />
+
 
 ## PEDIDOS DE CLIENTES
 Dentro de las funcionas del administrador es gestionar los pedidos de los clientes dentro de esta se encuentra las siguientes funciones:
@@ -127,4 +132,7 @@ Cuando se quiere editar un producto este lo envia a otra pagina que recoge los d
 En el rol de cliente tiene las funcionalidades principales como acceso al catalogo, el carrito donde se alistan los pedidos hechos, a los pedidos hechos por ellos y en la modificacion de su propio perfil
 
 <img width="1533" height="739" alt="Screenshot 2026-07-10 231001" src="https://github.com/user-attachments/assets/3f54b3bb-c53b-489e-85f1-e72f1a926517" />
+
+En la parte de "mis pedidos" cambia las opciones solo permanece la funcion de descargar el recibo del producto y la ruta tomada por el repartidor
+<img width="1029" height="371" alt="Screenshot 2026-07-11 195839" src="https://github.com/user-attachments/assets/b8d5ecef-805a-45cc-9937-de0d3e1c3404" />
 
